@@ -4,7 +4,6 @@ const Scores = require('./Scoreboard');
 class Game {
     join(player) {
         Scores.join(player.getName());
-        console.log(Scores);
     }
 
     scores() {

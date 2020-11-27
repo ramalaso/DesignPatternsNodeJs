@@ -5,25 +5,19 @@ const Pete = new Player('Pete');
 const Mike = new Player('Mike');
 const Poker = new Game();
 
-
 Poker.join(Pete);
 Poker.join(Mike);
 
-Pete.wins(20);
-
+Pete.wins(200);
 
 Mike.wins(30);
 Mike.wins(40);
 Mike.wins(40);
 Mike.wins(40);
 
-console.log(Mike);
-console.log(Pete);
-
-
 Pete.wins(1000);
-Pete.loses(1000);
-console.log(Poker);
+Pete.loses(500);
 
-console.log(`Scoreboard: ${Poker.scores()}`);
+console.log('Scoreboard: ');
+console.log(Poker.scores());
 console.log(`Winner: ${Poker.getWinner().name} with ${Poker.getWinner().points} points`);
