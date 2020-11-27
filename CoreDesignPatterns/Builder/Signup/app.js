@@ -10,4 +10,5 @@ new SignupBuilder('Raul Laredo', 'ramalaso@gmail.com', 42)
     .setTopics(['Node js', 'Javacsript'])
     .setSME(['Node js'])
     .setModerator()
+    .setAdmin()
     .create();

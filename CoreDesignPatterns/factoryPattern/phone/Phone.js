@@ -14,7 +14,7 @@ class Phone {
     dial(num) {
         console.log(`Now dialing ${num}...`);
     }
-    displarConfig() {
+    displayConfig() {
         console.log(this.configuration);
     }
 }

@@ -18,6 +18,5 @@ Mike.wins(40);
 Pete.wins(1000);
 Pete.loses(500);
 
-console.log('Scoreboard: ');
-console.log(Poker.scores());
+console.log('Scoreboard: ', Poker.scores());
 console.log(`Winner: ${Poker.getWinner().name} with ${Poker.getWinner().points} points`);
